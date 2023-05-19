@@ -1,0 +1,62 @@
+## VS Code, Visual Studio, Jet Brains Rider, 
+## ionide is FSharp Plugin for VS Code that shows up when enabled and sees sln file 
+.vs/
+.vscode/
+.idea/
+*.sln.iml
+.ionide/
+
+*.user
+*.suo
+*.userprefs
+*DS_Store
+Thumbs.db
+
+# dotnet build
+[Oo]bj/
+[Bb]in/
+
+# ReSharper 
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JJK Build Script output
+.build/
+
+## Client Side
+
+# compiled output
+dist/
+dist-server
+tmp
+out-tsc
+
+# dependencies
+node_modules/
+enc_theme.min.css
+
+# IDEs and editors
+
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode Keep Tasks and launch
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# misc
+.sass-cache/
+connect.lock/
+coverage/
+libpeerconnection.log/
+npm-debug.log
+yarn-error.log
+testem.log
+typings/
+**/**/appsettings.local.json
+.angular/
